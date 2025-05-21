@@ -1,0 +1,82 @@
+site_name: GenAI Docker Workshop
+site_url: https://genai-docker-workshop.vercel.app/
+site_description: A workshop on GenAI Stack with Docker
+site_author: Collabnix Community
+
+# Repository
+repo_name: collabnix/genai-docker-workshop
+repo_url: https://github.com/collabnix/genai-docker-workshop
+
+# Copyright
+copyright: 'Copyright &copy; 2025 - Collabnix Community'
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Prerequisites: getting-started/prerequisites.md
+    - Installation: getting-started/installation.md
+  - GenAI Fundamentals:
+    - Overview: genai-fundamentals/overview.md
+    - Key Concepts: genai-fundamentals/key-concepts.md
+    - GenAI Stack: genai-fundamentals/genai-stack.md
+    - Common Challenges: genai-fundamentals/challenges.md
+  - Docker for GenAI:
+    - Docker Overview: docker-genai/overview.md
+    - Model Runner: docker-genai/model-runner.md
+    - MCP Toolkit: docker-genai/mcp-toolkit.md
+    - Best Practices: docker-genai/best-practices.md
+  - Labs:
+    - Lab 1 - Model Runner Metrics: labs/lab1-model-runner-metrics.md
+    - Lab 2 - Product Catalog Demo: labs/lab2-product-catalog.md
+  - Resources:
+    - Useful Links: resources/links.md
+    - Community: resources/community.md
+    - FAQ: resources/faq.md
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extra customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/collabnix
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/collabnix
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/collabnix/
