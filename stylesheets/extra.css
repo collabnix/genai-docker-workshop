@@ -1,0 +1,17 @@
+/* Custom CSS for GenAI Docker Workshop */
+
+/* Force sidebar to be visible */
+.md-sidebar {
+  display: block !important;
+}
+
+/* Ensure consistent indentation in the sidebar navigation */
+.md-nav__item--nested .md-nav__list {
+  padding-left: 1rem;
+}
+
+/* Highlight active page more prominently */
+.md-nav__item .md-nav__link--active {
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+}
