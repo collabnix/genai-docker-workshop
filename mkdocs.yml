@@ -1,14 +1,14 @@
 site_name: GenAI Docker Workshop
 site_url: https://genai-docker-workshop.vercel.app/
-site_description: A workshop on GenAI Stack with Docker
+site_description: A workshop on GenAI Stack with Docker Model Runner and MCP
 site_author: Collabnix Community
 
 # Repository
 repo_name: collabnix/genai-docker-workshop
-repo_url: https://github.com/collabnix/genai-docker-workshop
+repo_url: https://github.com/ajeetraina/genai-docker-workshop
 
 # Copyright
-copyright: 'Copyright &copy; 2025 - Collabnix Community'
+copyright: 'Copyright &copy; 2025 - Docker'
 
 # Configuration
 theme:
